@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1{
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 18px;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        thead th {
+            background-color: gray;
+            font-weight: bold;
+        }
+        img {
+            max-width: 100px;
+            height: auto;
+        }
+        .availability {
+            font-weight: bold;
+        }
+        .in-stock {
+            color: green;
+        }
+        .out-of-stock {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Smart Phones</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Product Image</th>
+                <th>Price</th>
+                <th>Description</th>
+                <th>Availability</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>SAMSUNG Galaxy S24 Ultra 5G<br> (Titanium Violet, 256 GB)<br> (12 GB RAM)</td>
+                <td><img src="https://via.placeholder.com/100?text=SAMSUNG" alt="SAMSUNG Galaxy S24 Ultra 5G"></td>
+                <td>₹ 98,000 INR</td>
+                <td>The Samsung Galaxy S24 Ultra is the flagship model in the Samsung Galaxy S24 series,<br> expected to build on its predecessor's success.</td>
+                <td class="availability in-stock">In Stock</td>
+            </tr>
+            <tr>
+                <td>SAMSUNG Galaxy S24 5G<BR> (Amber Yellow, 256 GB)<BR>  (8 GB RAM)</td>
+                <td><img src="https://via.placeholder.com/100?text=SAMSUNG" alt="SAMSUNG Galaxy S24 5G"></td>
+                <td>₹ 79,999 INR</td>
+                <td>Behold the Samsung Galaxy S24 smartphone,<br> an exceptional amalgamation of incredible technology and superior sophistication. </td>
+                <td class="availability in-stock">In Stock</td>
+            </tr>
+            <tr>
+                <td>Apple iPhone 15 Pro Max <br>(Blue Titanium, 512 GB)</td>
+                <td><img src="https://via.placeholder.com/100?text=iPhone" alt="Apple iPhone 15 Pro Max "></td>
+                <td>₹ 1,31,999 INR</td>
+                <td>iPhone 15 Pro Max, a titanium marvel, boasts an aerospace-grade build,<br> making it the lightest Pro model ever. The A17 Pro Chip </td>
+                <td class="availability out-of-stock">Out of Stock</td>
+            </tr>
+            <tr>
+                <td>Apple iPhone 16 Pro Max<BR> (Black Titanium, 1 TB)</td>
+                <td><img src="https://via.placeholder.com/100?text=iPhone" alt="Apple iPhone 16 Pro Max"></td>
+                <td>₹ 1,84,900 INR</td>
+                <td>iPhone 16 Pro Max. Built for Apple Intelligence. Featuring a stunning titanium design. <BR>Camera Control. 4K 120 fps Dolby Vision. And A18 Pro chip.</td>
+                <td class="availability in-stock">In Stock</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
